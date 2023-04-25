@@ -1,0 +1,81 @@
+.common {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+
+.header {
+    text-indent: 0px;
+    height: 150px;
+    background-color: rgb(105, 133, 190);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:20px;
+    line-height: 150px;
+    text-align: center;
+}
+
+.resume{
+    background-color: whitesmoke;
+    margin-left: 330px;
+    margin-right: 330px;
+    margin-top: 20px;
+    border: 5px solid black;
+    padding: 30px;
+    color: #000;
+}
+.graphics{
+    margin-left: 330px;
+    margin-right: 330px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 16px;
+    margin: 0px;
+    text-align: center;
+}
+h2 {
+    font-size: 12px;
+    margin: 0px;
+    text-align: center;
+}
+h3 {
+    font-size: 12px;
+    margin: 0px;
+}
+h4 {
+    font-style: italic;
+    margin: 0px;
+}
+ul {
+    margin:0px;
+}
+li {
+    font-size: 12px;
+    margin: 0px;
+}
+.line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #000;
+    padding-top: 10px;
+}
+
+.footer{
+    background-color: cornflowerblue;
+    height: 25px;
+    padding-top: 25px;
+    bottom:1px;
+    right: 5px;
+    left: 5px;
+    position:fixed;
+    text-align: center;
+}
+
+.tableau{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust the height as needed */
+}
